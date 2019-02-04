@@ -9,7 +9,8 @@ global with sharing class MyIterable implements Iterable<Map<String, Object>> {
      * The iterable interface requires one method, iterator(),
      * that returns a class that implements the Iterator interface.
      * What iterator implementation you provide is completely up to you.
-     */ 
+     * In this example, we return an instance of the inner-class MyIterator.
+     */
     public Iterator<Map<String, Object>> iterator() {
         return (Iterator<Map<String, Object>>) new MyIterator();
     }
@@ -23,9 +24,9 @@ global with sharing class MyIterable implements Iterable<Map<String, Object>> {
      */
     public class MyIterator implements Iterator<Map<String, Object>> {
 
-        private List<Map<String, Object>> data { get; set; }
+        private List<Map<String, Object>> data = new List<Map<String, Object>>();
 
-        private Integer currentIndex { get; set; }
+        private Integer currentIndex = 0;
 
         public MyIterator() {
 
@@ -38,9 +39,6 @@ global with sharing class MyIterable implements Iterable<Map<String, Object>> {
             HttpResponse res = new Http().send( req );
 
             List<Object> results = (List<Object>) JSON.deserializeUntyped( res.getBody() );
-
-            this.data = new List<Map<String, Object>>();
-            this.currentIndex = 0;
 
             for ( Object result : results ) {
                 Map<String, Object> item = (Map<String, Object>) result;
