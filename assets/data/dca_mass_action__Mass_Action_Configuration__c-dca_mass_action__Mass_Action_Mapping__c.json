@@ -1,0 +1,64 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "dca_mass_action__Mass_Action_Configuration__c",
+                "referenceId": "dca_mass_action__Mass_Action_Configuration__cRef1"
+            },
+            "Name": "Create Tasks from External Service",
+            "dca_mass_action__Active__c": true,
+            "dca_mass_action__Batch_Size__c": 200,
+            "dca_mass_action__Description__c": "Use Apex source to make an http callout to a web service then map the JSON data to a flow that creates new tasks.",
+            "dca_mass_action__DeveloperName__c": "Create_Tasks_from_External_Service",
+            "dca_mass_action__Schedule_Frequency__c": "Manual",
+            "dca_mass_action__Source_Apex_Class__c": "MyIterable",
+            "dca_mass_action__Source_Type__c": "Apex",
+            "dca_mass_action__Target_Action_Name__c": "Create_Task_for_Equipment_Flow",
+            "dca_mass_action__Target_Type__c": "Flow",
+            "dca_mass_action__Mass_Action_Mappings__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "dca_mass_action__Mass_Action_Mapping__c",
+                            "referenceId": "dca_mass_action__Mass_Action_Mapping__cRef1"
+                        },
+                        "dca_mass_action__Source_Field_Name__c": "cost",
+                        "dca_mass_action__Target_Field_Name__c": "varCost"
+                    },
+                    {
+                        "attributes": {
+                            "type": "dca_mass_action__Mass_Action_Mapping__c",
+                            "referenceId": "dca_mass_action__Mass_Action_Mapping__cRef2"
+                        },
+                        "dca_mass_action__Source_Field_Name__c": "name",
+                        "dca_mass_action__Target_Field_Name__c": "varEquipmentName"
+                    },
+                    {
+                        "attributes": {
+                            "type": "dca_mass_action__Mass_Action_Mapping__c",
+                            "referenceId": "dca_mass_action__Mass_Action_Mapping__cRef3"
+                        },
+                        "dca_mass_action__Source_Field_Name__c": "_id",
+                        "dca_mass_action__Target_Field_Name__c": "varExternalId"
+                    },
+                    {
+                        "attributes": {
+                            "type": "dca_mass_action__Mass_Action_Mapping__c",
+                            "referenceId": "dca_mass_action__Mass_Action_Mapping__cRef4"
+                        },
+                        "dca_mass_action__Source_Field_Name__c": "quantity",
+                        "dca_mass_action__Target_Field_Name__c": "varQuantity"
+                    },
+                    {
+                        "attributes": {
+                            "type": "dca_mass_action__Mass_Action_Mapping__c",
+                            "referenceId": "dca_mass_action__Mass_Action_Mapping__cRef5"
+                        },
+                        "dca_mass_action__Source_Field_Name__c": "replacement",
+                        "dca_mass_action__Target_Field_Name__c": "varReplacement"
+                    }
+                ]
+            }
+        }
+    ]
+}
