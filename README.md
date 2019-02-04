@@ -2,10 +2,15 @@
 
 Simple repository to speed up configuring a scratch org to test new package installs.
 
-## Set Default DevHub
+## Enable Dev Hub
+
+If you're new to Salesforce DX, or don't have a Dev Hub org,
+complete [Quick Start: Salesforce DX](https://trailhead.salesforce.com/en/content/learn/projects/quick-start-salesforce-dx) project on Trailhead before you go on.
+
+## Set Default DevHub Username
 
 ```
-sfdx force:config:set defaultdevhubusername=DevHubSP19
+sfdx force:config:set defaultdevhubusername=DevHub
 ```
 
 ## Create Scratch Org
