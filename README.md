@@ -5,7 +5,8 @@ Simple repository to speed up configuring a scratch org to test new package inst
 ## Enable Dev Hub
 
 If you're new to Salesforce DX, or don't have a Dev Hub org,
-complete [Quick Start: Salesforce DX](https://trailhead.salesforce.com/en/content/learn/projects/quick-start-salesforce-dx) project on Trailhead before you go on.
+complete [Quick Start: Salesforce DX](https://trailhead.salesforce.com/en/content/learn/projects/quick-start-salesforce-dx)
+project on Trailhead before you go on.
 
 ## Set Default Dev Hub Username
 _Provide the alias of your Dev Hub org for creating scratch orgs._
@@ -21,10 +22,10 @@ sfdx force:org:create -a mas-test-pkg -s -f config/project-scratch-def.json
 ```
 
 ## Install Mass Action Scheduler Package
-_Get the latest package id from the [main project page](https://github.com/douglascayers-org/sfdx-mass-action-scheduler#packaged-release-history)._
+_Get the latest package id from the [release notes](https://github.com/douglascayers-org/sfdx-mass-action-scheduler/wiki/Release-Notes)._
 
 ```
-sfdx force:package:install --package 04tf4000004IvKs --publishwait 30 --wait 10
+sfdx force:package:install --package PACKAGE_ID --publishwait 30 --wait 10
 ```
 
 ## Push Metadata

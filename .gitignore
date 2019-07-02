@@ -1,4 +1,5 @@
-.sfdx
-.vscode
-IlluminatedCloud
-.iml
+.idea/
+.sfdx/
+.vscode/
+IlluminatedCloud/
+*.iml
