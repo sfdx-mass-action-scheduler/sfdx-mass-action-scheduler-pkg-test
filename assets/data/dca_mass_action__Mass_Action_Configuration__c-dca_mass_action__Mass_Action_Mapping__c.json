@@ -58,6 +58,205 @@
                         "dca_mass_action__Target_Field_Name__c": "varReplacement"
                     }
                 ]
+            },
+            "dca_mass_action__Mass_Action_Logs__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "dca_mass_action__Mass_Action_Log__c",
+                            "referenceId": "dca_mass_action__Mass_Action_Log__cRef1"
+                        },
+                        "dca_mass_action__Job_ID__c": "7071h00000ehRQf",
+                        "dca_mass_action__Message__c": "Error: Field path [y] not found on source record [{\"sku\":\"100003\",\"cost\":5000,\"lifespan\":120,\"maintenanceperiod\":365,\"name\":\"Generator 1000 kW\",\"quantity\":5,\"replacement\":false,\"_id\":\"55d66226726b611100aaf741\"}]. Please review the Mass Action Mappings",
+                        "dca_mass_action__Long_Message__c": "Error: Field path [y] not found on source record [{\"sku\":\"100003\",\"cost\":5000,\"lifespan\":120,\"maintenanceperiod\":365,\"name\":\"Generator 1000 kW\",\"quantity\":5,\"replacement\":false,\"_id\":\"55d66226726b611100aaf741\"}]. Please review the Mass Action Mappings",
+                        "dca_mass_action__Submitted_Date__c": "2019-07-11T03:26:53.000+0000",
+                        "dca_mass_action__Total_Batches__c": 1,
+                        "dca_mass_action__Processed_Batches__c": 0,
+                        "dca_mass_action__Failed_Batches__c": 0
+                    },
+                    {
+                        "attributes": {
+                            "type": "dca_mass_action__Mass_Action_Log__c",
+                            "referenceId": "dca_mass_action__Mass_Action_Log__cRef2"
+                        },
+                        "dca_mass_action__Job_ID__c": "7071h00000ehRWx",
+                        "dca_mass_action__Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoi",
+                        "dca_mass_action__Long_Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoint=https://power-app-5863-dev-ed.cs79.my.salesforce.com/services/data/v45.0/tooling/executeAnonymous?anonymousBody=+void+mas_initApexBlock%28%29+%7B++List%3CObject%3E+untypedRecords+%3D+%28List%3CObject%3E%29+JSON.deserializeUntyped%28+%27%5B%7B%22sku%22%3A%22100003%22%2C%22cost%22%3A5000%2C%22lifespan%22%3A120%2C%22maintenanceperiod%22%3A365%2C%22name%22%3A%22Generator+1000+kW%22%2C%22quantity%22%3A5%2C%22replacement%22%3Afalse%2C%22_id%22%3A%2255d66226726b611100aaf741%22%7D%2C%7B%22sku%22%3A%22100004%22%2C%22cost%22%3A300%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Cooling+Fan%22%2C%22quantity%22%3A183%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf742%22%7D%2C%7B%22sku%22%3A%22100005%22%2C%22cost%22%3A22%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Fuse+20A%22%2C%22quantity%22%3A143%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf743%22%7D%2C%7B%22sku%22%3A%22100006%22%2C%22cost%22%3A6000%2C%22lifespan%22%3A120%2C%22maintenanceperiod%22%3A365%2C%22name%22%3A%22Generator+2000+kw%22%2C%22quantity%22%3A5%2C%22replacement%22%3Afalse%2C%22_id%22%3A%2255d66226726b611100aaf744%22%7D%2C%7B%22sku%22%3A%22100007%22%2C%22cost%22%3A28%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Fuse+25A%22%2C%22quantity%22%3A142%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf745%22%7D%2C%7B%22sku%22%3A%22100008%22%2C%22cost%22%3A10%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Fuse+13A%22%2C%22quantity%22%3A122%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf746%22%7D%2C%7B%22sku%22%3A%22100009%22%2C%22cost%22%3A50%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Ball+Valve+10+cm%22%2C%22quantity%22%3A90%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf747%22%7D%2C%7B%22sku%22%3A%22100010%22%2C%22cost%22%3A3000%2C%22lifespan%22%3A120%2C%22maintenanceperiod%22%3A180%2C%22name%22%3A%22Converter%22%2C%22quantity%22%3A2%2C%22replacement%22%3Afalse%2C%22_id%22%3A%2255d66226726b611100aaf748%22%7D%2C%7B%22sku%22%3A%22100011%22%2C%22cost%22%3A42%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Ball+Valve+8+cm%22%2C%22quantity%22%3A75%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf749%22%7D%2C%7B%22sku%22%3A%22100012%22%2C%22cost%22%3A30%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Breaker+25A%22%2C%22quantity%22%3A100%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf74a%22%7D%2C%7B%22sku%22%3A%22100013%22%2C%22cost%22%3A100%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Switch%22%2C%22quantity%22%3A150%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf74b%22%7D%2C%7B%22sku%22%3A%22100014%22%2C%22cost%22%3A30%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Ball+Valve+5+cm%22%2C%22quantity%22%3A200%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf74c%22%7D%2C%7B%22sku%22%3A%22100015%22%2C%22cost%22%3A1600%2C%22lifespan%22%3A60%2C%22maintenanceperiod%22%3A180%2C%22name%22%3A%22UPS+3000+VA%22%2C%22quantity%22%3A8%2C%22replacement%22%3Afalse%2C%22_id%22%3A%2255d66226726b611100aaf74d%22%7D%2C%7B%22sku%22%3A%22100016%22%2C%22cost%22%3A1000%2C%22lifespan%22%3A48%2C%22maintenanceperiod%22%3A180%2C%22name%22%3A%22UPS+1000+VA%22%2C%22quantity%22%3A10%2C%22replacement%22%3Afalse%2C%22_id%22%3A%2255d66226726b611100aaf74e%22%7D%2C%7B%22sku%22%3A%22100017%22%2C%22cost%22%3A10%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Breaker+8A%22%2C%22quantity%22%3A180%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf74f%22%7D%2C%7B%22sku%22%3A%22100018%22%2C%22cost%22%3A10000%2C%22lifespan%22%3A120%2C%22maintenanceperiod%22%3A365%2C%22name%22%3A%22Cooling+Tower%22%2C%22quantity%22%3A2%2C%22replacement%22%3Afalse%2C%22_id%22%3A%2255d66226726b611100aaf750%22%7D%2C%7B%22sku%22%3A%22100019%22%2C%22cost%22%3A150%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Motor%22%2C%22quantity%22%3A165%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf751%22%7D%2C%7B%22sku%22%3A%22100020%22%2C%22cost%22%3A20%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Breaker+13A%22%2C%22quantity%22%3A210%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf752%22%7D%2C%7B%22sku%22%3A%22100021%22%2C%22cost%22%3A500%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Radiator+Pump%22%2C%22quantity%22%3A100%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf753%22%7D%2C%7B%22sku%22%3A%22100022%22%2C%22cost%22%3A25%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Breaker+20A%22%2C%22quantity%22%3A129%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf754%22%7D%2C%7B%22sku%22%3A%22100001%22%2C%22cost%22%3A1350%2C%22lifespan%22%3A60%2C%22maintenanceperiod%22%3A180%2C%22name%22%3A%22UPS+2000+VA%22%2C%22quantity%22%3A10%2C%22replacement%22%3Afalse%2C%22_id%22%3A%2255d66226726b611100aaf73f%22%7D%5D%27+%29%3B++List%3CMap%3CString%2C+Object%3E%3E+typedRecords+%3D+new+List%3CMap%3CString%2C+Object%3E%3E%28%29%3B++for+%28+Object+untypedRecord+%3A+untypedRecords+%29+%7B++typedRecords.add%28+%28Map%3CString%2C+Object%3E%29+untypedRecord+%29%3B++%7D++execute%28+typedRecords+%29%3B++%7D++mas_initApexBlock%28%29%3B+void+execute%28+List%3CMap%3CString%2C+Object%3E%3E+sourceRecordsBatch+%29+%7B+%0A++++for+%28+Map%3CString%2C+Object%3E+record+%3A+sourceRecordsBatch+%29+%7B%0A++++++++Integer+cost+%3D+%28Integer%29+record.get%28%27cost%27%29%3B%0A++++++++if+%28+cost+%3C+500+%29+%7B+throw+new+System.MathException%28%29%3B+%7D%0A++++%7D+%0A%7D, Method=GET]",
+                        "dca_mass_action__Submitted_Date__c": "2019-07-11T03:32:13.000+0000",
+                        "dca_mass_action__Total_Batches__c": 1,
+                        "dca_mass_action__Processed_Batches__c": 0,
+                        "dca_mass_action__Failed_Batches__c": 0
+                    },
+                    {
+                        "attributes": {
+                            "type": "dca_mass_action__Mass_Action_Log__c",
+                            "referenceId": "dca_mass_action__Mass_Action_Log__cRef3"
+                        },
+                        "dca_mass_action__Job_ID__c": "7071h00000ehRQZ",
+                        "dca_mass_action__Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoi",
+                        "dca_mass_action__Long_Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoint=https://power-app-5863-dev-ed.cs79.my.salesforce.com/services/data/v45.0/tooling/executeAnonymous?anonymousBody=+void+mas_initApexBlock%28%29+%7B++List%3CObject%3E+untypedRecords+%3D+%28List%3CObject%3E%29+JSON.deserializeUntyped%28+%27%5B%7B%22sku%22%3A%22100004%22%2C%22cost%22%3A300%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Cooling+Fan%22%2C%22quantity%22%3A183%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf742%22%7D%5D%27+%29%3B++List%3CMap%3CString%2C+Object%3E%3E+typedRecords+%3D+new+List%3CMap%3CString%2C+Object%3E%3E%28%29%3B++for+%28+Object+untypedRecord+%3A+untypedRecords+%29+%7B++typedRecords.add%28+%28Map%3CString%2C+Object%3E%29+untypedRecord+%29%3B++%7D++execute%28+typedRecords+%29%3B++%7D++mas_initApexBlock%28%29%3B+void+execute%28+List%3CMap%3CString%2C+Object%3E%3E+sourceRecordsBatch+%29+%7B+%0A++++for+%28+Map%3CString%2C+Object%3E+record+%3A+sourceRecordsBatch+%29+%7B%0A++++++++Integer+cost+%3D+%28Integer%29+record.get%28%27cost%27%29%3B%0A++++++++if+%28+cost+%3C+500+%29+%7B+throw+new+System.MathException%28%29%3B+%7D%0A++++%7D+%0A%7D, Method=GET]",
+                        "dca_mass_action__Submitted_Date__c": "2019-07-11T03:32:28.000+0000",
+                        "dca_mass_action__Total_Batches__c": 21,
+                        "dca_mass_action__Processed_Batches__c": 1,
+                        "dca_mass_action__Failed_Batches__c": 0
+                    },
+                    {
+                        "attributes": {
+                            "type": "dca_mass_action__Mass_Action_Log__c",
+                            "referenceId": "dca_mass_action__Mass_Action_Log__cRef4"
+                        },
+                        "dca_mass_action__Job_ID__c": "7071h00000ehRQZ",
+                        "dca_mass_action__Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoi",
+                        "dca_mass_action__Long_Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoint=https://power-app-5863-dev-ed.cs79.my.salesforce.com/services/data/v45.0/tooling/executeAnonymous?anonymousBody=+void+mas_initApexBlock%28%29+%7B++List%3CObject%3E+untypedRecords+%3D+%28List%3CObject%3E%29+JSON.deserializeUntyped%28+%27%5B%7B%22sku%22%3A%22100005%22%2C%22cost%22%3A22%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Fuse+20A%22%2C%22quantity%22%3A143%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf743%22%7D%5D%27+%29%3B++List%3CMap%3CString%2C+Object%3E%3E+typedRecords+%3D+new+List%3CMap%3CString%2C+Object%3E%3E%28%29%3B++for+%28+Object+untypedRecord+%3A+untypedRecords+%29+%7B++typedRecords.add%28+%28Map%3CString%2C+Object%3E%29+untypedRecord+%29%3B++%7D++execute%28+typedRecords+%29%3B++%7D++mas_initApexBlock%28%29%3B+void+execute%28+List%3CMap%3CString%2C+Object%3E%3E+sourceRecordsBatch+%29+%7B+%0A++++for+%28+Map%3CString%2C+Object%3E+record+%3A+sourceRecordsBatch+%29+%7B%0A++++++++Integer+cost+%3D+%28Integer%29+record.get%28%27cost%27%29%3B%0A++++++++if+%28+cost+%3C+500+%29+%7B+throw+new+System.MathException%28%29%3B+%7D%0A++++%7D+%0A%7D, Method=GET]",
+                        "dca_mass_action__Submitted_Date__c": "2019-07-11T03:32:28.000+0000",
+                        "dca_mass_action__Total_Batches__c": 21,
+                        "dca_mass_action__Processed_Batches__c": 2,
+                        "dca_mass_action__Failed_Batches__c": 0
+                    },
+                    {
+                        "attributes": {
+                            "type": "dca_mass_action__Mass_Action_Log__c",
+                            "referenceId": "dca_mass_action__Mass_Action_Log__cRef5"
+                        },
+                        "dca_mass_action__Job_ID__c": "7071h00000ehRQZ",
+                        "dca_mass_action__Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoi",
+                        "dca_mass_action__Long_Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoint=https://power-app-5863-dev-ed.cs79.my.salesforce.com/services/data/v45.0/tooling/executeAnonymous?anonymousBody=+void+mas_initApexBlock%28%29+%7B++List%3CObject%3E+untypedRecords+%3D+%28List%3CObject%3E%29+JSON.deserializeUntyped%28+%27%5B%7B%22sku%22%3A%22100007%22%2C%22cost%22%3A28%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Fuse+25A%22%2C%22quantity%22%3A142%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf745%22%7D%5D%27+%29%3B++List%3CMap%3CString%2C+Object%3E%3E+typedRecords+%3D+new+List%3CMap%3CString%2C+Object%3E%3E%28%29%3B++for+%28+Object+untypedRecord+%3A+untypedRecords+%29+%7B++typedRecords.add%28+%28Map%3CString%2C+Object%3E%29+untypedRecord+%29%3B++%7D++execute%28+typedRecords+%29%3B++%7D++mas_initApexBlock%28%29%3B+void+execute%28+List%3CMap%3CString%2C+Object%3E%3E+sourceRecordsBatch+%29+%7B+%0A++++for+%28+Map%3CString%2C+Object%3E+record+%3A+sourceRecordsBatch+%29+%7B%0A++++++++Integer+cost+%3D+%28Integer%29+record.get%28%27cost%27%29%3B%0A++++++++if+%28+cost+%3C+500+%29+%7B+throw+new+System.MathException%28%29%3B+%7D%0A++++%7D+%0A%7D, Method=GET]",
+                        "dca_mass_action__Submitted_Date__c": "2019-07-11T03:32:28.000+0000",
+                        "dca_mass_action__Total_Batches__c": 21,
+                        "dca_mass_action__Processed_Batches__c": 4,
+                        "dca_mass_action__Failed_Batches__c": 0
+                    },
+                    {
+                        "attributes": {
+                            "type": "dca_mass_action__Mass_Action_Log__c",
+                            "referenceId": "dca_mass_action__Mass_Action_Log__cRef6"
+                        },
+                        "dca_mass_action__Job_ID__c": "7071h00000ehRQZ",
+                        "dca_mass_action__Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoi",
+                        "dca_mass_action__Long_Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoint=https://power-app-5863-dev-ed.cs79.my.salesforce.com/services/data/v45.0/tooling/executeAnonymous?anonymousBody=+void+mas_initApexBlock%28%29+%7B++List%3CObject%3E+untypedRecords+%3D+%28List%3CObject%3E%29+JSON.deserializeUntyped%28+%27%5B%7B%22sku%22%3A%22100008%22%2C%22cost%22%3A10%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Fuse+13A%22%2C%22quantity%22%3A122%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf746%22%7D%5D%27+%29%3B++List%3CMap%3CString%2C+Object%3E%3E+typedRecords+%3D+new+List%3CMap%3CString%2C+Object%3E%3E%28%29%3B++for+%28+Object+untypedRecord+%3A+untypedRecords+%29+%7B++typedRecords.add%28+%28Map%3CString%2C+Object%3E%29+untypedRecord+%29%3B++%7D++execute%28+typedRecords+%29%3B++%7D++mas_initApexBlock%28%29%3B+void+execute%28+List%3CMap%3CString%2C+Object%3E%3E+sourceRecordsBatch+%29+%7B+%0A++++for+%28+Map%3CString%2C+Object%3E+record+%3A+sourceRecordsBatch+%29+%7B%0A++++++++Integer+cost+%3D+%28Integer%29+record.get%28%27cost%27%29%3B%0A++++++++if+%28+cost+%3C+500+%29+%7B+throw+new+System.MathException%28%29%3B+%7D%0A++++%7D+%0A%7D, Method=GET]",
+                        "dca_mass_action__Submitted_Date__c": "2019-07-11T03:32:28.000+0000",
+                        "dca_mass_action__Total_Batches__c": 21,
+                        "dca_mass_action__Processed_Batches__c": 5,
+                        "dca_mass_action__Failed_Batches__c": 0
+                    },
+                    {
+                        "attributes": {
+                            "type": "dca_mass_action__Mass_Action_Log__c",
+                            "referenceId": "dca_mass_action__Mass_Action_Log__cRef7"
+                        },
+                        "dca_mass_action__Job_ID__c": "7071h00000ehRQZ",
+                        "dca_mass_action__Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoi",
+                        "dca_mass_action__Long_Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoint=https://power-app-5863-dev-ed.cs79.my.salesforce.com/services/data/v45.0/tooling/executeAnonymous?anonymousBody=+void+mas_initApexBlock%28%29+%7B++List%3CObject%3E+untypedRecords+%3D+%28List%3CObject%3E%29+JSON.deserializeUntyped%28+%27%5B%7B%22sku%22%3A%22100009%22%2C%22cost%22%3A50%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Ball+Valve+10+cm%22%2C%22quantity%22%3A90%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf747%22%7D%5D%27+%29%3B++List%3CMap%3CString%2C+Object%3E%3E+typedRecords+%3D+new+List%3CMap%3CString%2C+Object%3E%3E%28%29%3B++for+%28+Object+untypedRecord+%3A+untypedRecords+%29+%7B++typedRecords.add%28+%28Map%3CString%2C+Object%3E%29+untypedRecord+%29%3B++%7D++execute%28+typedRecords+%29%3B++%7D++mas_initApexBlock%28%29%3B+void+execute%28+List%3CMap%3CString%2C+Object%3E%3E+sourceRecordsBatch+%29+%7B+%0A++++for+%28+Map%3CString%2C+Object%3E+record+%3A+sourceRecordsBatch+%29+%7B%0A++++++++Integer+cost+%3D+%28Integer%29+record.get%28%27cost%27%29%3B%0A++++++++if+%28+cost+%3C+500+%29+%7B+throw+new+System.MathException%28%29%3B+%7D%0A++++%7D+%0A%7D, Method=GET]",
+                        "dca_mass_action__Submitted_Date__c": "2019-07-11T03:32:28.000+0000",
+                        "dca_mass_action__Total_Batches__c": 21,
+                        "dca_mass_action__Processed_Batches__c": 6,
+                        "dca_mass_action__Failed_Batches__c": 0
+                    },
+                    {
+                        "attributes": {
+                            "type": "dca_mass_action__Mass_Action_Log__c",
+                            "referenceId": "dca_mass_action__Mass_Action_Log__cRef8"
+                        },
+                        "dca_mass_action__Job_ID__c": "7071h00000ehRQZ",
+                        "dca_mass_action__Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoi",
+                        "dca_mass_action__Long_Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoint=https://power-app-5863-dev-ed.cs79.my.salesforce.com/services/data/v45.0/tooling/executeAnonymous?anonymousBody=+void+mas_initApexBlock%28%29+%7B++List%3CObject%3E+untypedRecords+%3D+%28List%3CObject%3E%29+JSON.deserializeUntyped%28+%27%5B%7B%22sku%22%3A%22100011%22%2C%22cost%22%3A42%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Ball+Valve+8+cm%22%2C%22quantity%22%3A75%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf749%22%7D%5D%27+%29%3B++List%3CMap%3CString%2C+Object%3E%3E+typedRecords+%3D+new+List%3CMap%3CString%2C+Object%3E%3E%28%29%3B++for+%28+Object+untypedRecord+%3A+untypedRecords+%29+%7B++typedRecords.add%28+%28Map%3CString%2C+Object%3E%29+untypedRecord+%29%3B++%7D++execute%28+typedRecords+%29%3B++%7D++mas_initApexBlock%28%29%3B+void+execute%28+List%3CMap%3CString%2C+Object%3E%3E+sourceRecordsBatch+%29+%7B+%0A++++for+%28+Map%3CString%2C+Object%3E+record+%3A+sourceRecordsBatch+%29+%7B%0A++++++++Integer+cost+%3D+%28Integer%29+record.get%28%27cost%27%29%3B%0A++++++++if+%28+cost+%3C+500+%29+%7B+throw+new+System.MathException%28%29%3B+%7D%0A++++%7D+%0A%7D, Method=GET]",
+                        "dca_mass_action__Submitted_Date__c": "2019-07-11T03:32:28.000+0000",
+                        "dca_mass_action__Total_Batches__c": 21,
+                        "dca_mass_action__Processed_Batches__c": 8,
+                        "dca_mass_action__Failed_Batches__c": 0
+                    },
+                    {
+                        "attributes": {
+                            "type": "dca_mass_action__Mass_Action_Log__c",
+                            "referenceId": "dca_mass_action__Mass_Action_Log__cRef9"
+                        },
+                        "dca_mass_action__Job_ID__c": "7071h00000ehRQZ",
+                        "dca_mass_action__Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoi",
+                        "dca_mass_action__Long_Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoint=https://power-app-5863-dev-ed.cs79.my.salesforce.com/services/data/v45.0/tooling/executeAnonymous?anonymousBody=+void+mas_initApexBlock%28%29+%7B++List%3CObject%3E+untypedRecords+%3D+%28List%3CObject%3E%29+JSON.deserializeUntyped%28+%27%5B%7B%22sku%22%3A%22100012%22%2C%22cost%22%3A30%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Breaker+25A%22%2C%22quantity%22%3A100%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf74a%22%7D%5D%27+%29%3B++List%3CMap%3CString%2C+Object%3E%3E+typedRecords+%3D+new+List%3CMap%3CString%2C+Object%3E%3E%28%29%3B++for+%28+Object+untypedRecord+%3A+untypedRecords+%29+%7B++typedRecords.add%28+%28Map%3CString%2C+Object%3E%29+untypedRecord+%29%3B++%7D++execute%28+typedRecords+%29%3B++%7D++mas_initApexBlock%28%29%3B+void+execute%28+List%3CMap%3CString%2C+Object%3E%3E+sourceRecordsBatch+%29+%7B+%0A++++for+%28+Map%3CString%2C+Object%3E+record+%3A+sourceRecordsBatch+%29+%7B%0A++++++++Integer+cost+%3D+%28Integer%29+record.get%28%27cost%27%29%3B%0A++++++++if+%28+cost+%3C+500+%29+%7B+throw+new+System.MathException%28%29%3B+%7D%0A++++%7D+%0A%7D, Method=GET]",
+                        "dca_mass_action__Submitted_Date__c": "2019-07-11T03:32:28.000+0000",
+                        "dca_mass_action__Total_Batches__c": 21,
+                        "dca_mass_action__Processed_Batches__c": 9,
+                        "dca_mass_action__Failed_Batches__c": 0
+                    },
+                    {
+                        "attributes": {
+                            "type": "dca_mass_action__Mass_Action_Log__c",
+                            "referenceId": "dca_mass_action__Mass_Action_Log__cRef10"
+                        },
+                        "dca_mass_action__Job_ID__c": "7071h00000ehRQZ",
+                        "dca_mass_action__Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoi",
+                        "dca_mass_action__Long_Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoint=https://power-app-5863-dev-ed.cs79.my.salesforce.com/services/data/v45.0/tooling/executeAnonymous?anonymousBody=+void+mas_initApexBlock%28%29+%7B++List%3CObject%3E+untypedRecords+%3D+%28List%3CObject%3E%29+JSON.deserializeUntyped%28+%27%5B%7B%22sku%22%3A%22100013%22%2C%22cost%22%3A100%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Switch%22%2C%22quantity%22%3A150%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf74b%22%7D%5D%27+%29%3B++List%3CMap%3CString%2C+Object%3E%3E+typedRecords+%3D+new+List%3CMap%3CString%2C+Object%3E%3E%28%29%3B++for+%28+Object+untypedRecord+%3A+untypedRecords+%29+%7B++typedRecords.add%28+%28Map%3CString%2C+Object%3E%29+untypedRecord+%29%3B++%7D++execute%28+typedRecords+%29%3B++%7D++mas_initApexBlock%28%29%3B+void+execute%28+List%3CMap%3CString%2C+Object%3E%3E+sourceRecordsBatch+%29+%7B+%0A++++for+%28+Map%3CString%2C+Object%3E+record+%3A+sourceRecordsBatch+%29+%7B%0A++++++++Integer+cost+%3D+%28Integer%29+record.get%28%27cost%27%29%3B%0A++++++++if+%28+cost+%3C+500+%29+%7B+throw+new+System.MathException%28%29%3B+%7D%0A++++%7D+%0A%7D, Method=GET]",
+                        "dca_mass_action__Submitted_Date__c": "2019-07-11T03:32:28.000+0000",
+                        "dca_mass_action__Total_Batches__c": 21,
+                        "dca_mass_action__Processed_Batches__c": 10,
+                        "dca_mass_action__Failed_Batches__c": 0
+                    },
+                    {
+                        "attributes": {
+                            "type": "dca_mass_action__Mass_Action_Log__c",
+                            "referenceId": "dca_mass_action__Mass_Action_Log__cRef11"
+                        },
+                        "dca_mass_action__Job_ID__c": "7071h00000ehRQZ",
+                        "dca_mass_action__Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoi",
+                        "dca_mass_action__Long_Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoint=https://power-app-5863-dev-ed.cs79.my.salesforce.com/services/data/v45.0/tooling/executeAnonymous?anonymousBody=+void+mas_initApexBlock%28%29+%7B++List%3CObject%3E+untypedRecords+%3D+%28List%3CObject%3E%29+JSON.deserializeUntyped%28+%27%5B%7B%22sku%22%3A%22100014%22%2C%22cost%22%3A30%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Ball+Valve+5+cm%22%2C%22quantity%22%3A200%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf74c%22%7D%5D%27+%29%3B++List%3CMap%3CString%2C+Object%3E%3E+typedRecords+%3D+new+List%3CMap%3CString%2C+Object%3E%3E%28%29%3B++for+%28+Object+untypedRecord+%3A+untypedRecords+%29+%7B++typedRecords.add%28+%28Map%3CString%2C+Object%3E%29+untypedRecord+%29%3B++%7D++execute%28+typedRecords+%29%3B++%7D++mas_initApexBlock%28%29%3B+void+execute%28+List%3CMap%3CString%2C+Object%3E%3E+sourceRecordsBatch+%29+%7B+%0A++++for+%28+Map%3CString%2C+Object%3E+record+%3A+sourceRecordsBatch+%29+%7B%0A++++++++Integer+cost+%3D+%28Integer%29+record.get%28%27cost%27%29%3B%0A++++++++if+%28+cost+%3C+500+%29+%7B+throw+new+System.MathException%28%29%3B+%7D%0A++++%7D+%0A%7D, Method=GET]",
+                        "dca_mass_action__Submitted_Date__c": "2019-07-11T03:32:28.000+0000",
+                        "dca_mass_action__Total_Batches__c": 21,
+                        "dca_mass_action__Processed_Batches__c": 11,
+                        "dca_mass_action__Failed_Batches__c": 0
+                    },
+                    {
+                        "attributes": {
+                            "type": "dca_mass_action__Mass_Action_Log__c",
+                            "referenceId": "dca_mass_action__Mass_Action_Log__cRef12"
+                        },
+                        "dca_mass_action__Job_ID__c": "7071h00000ehRQZ",
+                        "dca_mass_action__Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoi",
+                        "dca_mass_action__Long_Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoint=https://power-app-5863-dev-ed.cs79.my.salesforce.com/services/data/v45.0/tooling/executeAnonymous?anonymousBody=+void+mas_initApexBlock%28%29+%7B++List%3CObject%3E+untypedRecords+%3D+%28List%3CObject%3E%29+JSON.deserializeUntyped%28+%27%5B%7B%22sku%22%3A%22100017%22%2C%22cost%22%3A10%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Breaker+8A%22%2C%22quantity%22%3A180%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf74f%22%7D%5D%27+%29%3B++List%3CMap%3CString%2C+Object%3E%3E+typedRecords+%3D+new+List%3CMap%3CString%2C+Object%3E%3E%28%29%3B++for+%28+Object+untypedRecord+%3A+untypedRecords+%29+%7B++typedRecords.add%28+%28Map%3CString%2C+Object%3E%29+untypedRecord+%29%3B++%7D++execute%28+typedRecords+%29%3B++%7D++mas_initApexBlock%28%29%3B+void+execute%28+List%3CMap%3CString%2C+Object%3E%3E+sourceRecordsBatch+%29+%7B+%0A++++for+%28+Map%3CString%2C+Object%3E+record+%3A+sourceRecordsBatch+%29+%7B%0A++++++++Integer+cost+%3D+%28Integer%29+record.get%28%27cost%27%29%3B%0A++++++++if+%28+cost+%3C+500+%29+%7B+throw+new+System.MathException%28%29%3B+%7D%0A++++%7D+%0A%7D, Method=GET]",
+                        "dca_mass_action__Submitted_Date__c": "2019-07-11T03:32:28.000+0000",
+                        "dca_mass_action__Total_Batches__c": 21,
+                        "dca_mass_action__Processed_Batches__c": 14,
+                        "dca_mass_action__Failed_Batches__c": 0
+                    },
+                    {
+                        "attributes": {
+                            "type": "dca_mass_action__Mass_Action_Log__c",
+                            "referenceId": "dca_mass_action__Mass_Action_Log__cRef13"
+                        },
+                        "dca_mass_action__Job_ID__c": "7071h00000ehRQZ",
+                        "dca_mass_action__Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoi",
+                        "dca_mass_action__Long_Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoint=https://power-app-5863-dev-ed.cs79.my.salesforce.com/services/data/v45.0/tooling/executeAnonymous?anonymousBody=+void+mas_initApexBlock%28%29+%7B++List%3CObject%3E+untypedRecords+%3D+%28List%3CObject%3E%29+JSON.deserializeUntyped%28+%27%5B%7B%22sku%22%3A%22100019%22%2C%22cost%22%3A150%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Motor%22%2C%22quantity%22%3A165%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf751%22%7D%5D%27+%29%3B++List%3CMap%3CString%2C+Object%3E%3E+typedRecords+%3D+new+List%3CMap%3CString%2C+Object%3E%3E%28%29%3B++for+%28+Object+untypedRecord+%3A+untypedRecords+%29+%7B++typedRecords.add%28+%28Map%3CString%2C+Object%3E%29+untypedRecord+%29%3B++%7D++execute%28+typedRecords+%29%3B++%7D++mas_initApexBlock%28%29%3B+void+execute%28+List%3CMap%3CString%2C+Object%3E%3E+sourceRecordsBatch+%29+%7B+%0A++++for+%28+Map%3CString%2C+Object%3E+record+%3A+sourceRecordsBatch+%29+%7B%0A++++++++Integer+cost+%3D+%28Integer%29+record.get%28%27cost%27%29%3B%0A++++++++if+%28+cost+%3C+500+%29+%7B+throw+new+System.MathException%28%29%3B+%7D%0A++++%7D+%0A%7D, Method=GET]",
+                        "dca_mass_action__Submitted_Date__c": "2019-07-11T03:32:28.000+0000",
+                        "dca_mass_action__Total_Batches__c": 21,
+                        "dca_mass_action__Processed_Batches__c": 16,
+                        "dca_mass_action__Failed_Batches__c": 0
+                    },
+                    {
+                        "attributes": {
+                            "type": "dca_mass_action__Mass_Action_Log__c",
+                            "referenceId": "dca_mass_action__Mass_Action_Log__cRef14"
+                        },
+                        "dca_mass_action__Job_ID__c": "7071h00000ehRQZ",
+                        "dca_mass_action__Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoi",
+                        "dca_mass_action__Long_Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoint=https://power-app-5863-dev-ed.cs79.my.salesforce.com/services/data/v45.0/tooling/executeAnonymous?anonymousBody=+void+mas_initApexBlock%28%29+%7B++List%3CObject%3E+untypedRecords+%3D+%28List%3CObject%3E%29+JSON.deserializeUntyped%28+%27%5B%7B%22sku%22%3A%22100020%22%2C%22cost%22%3A20%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Breaker+13A%22%2C%22quantity%22%3A210%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf752%22%7D%5D%27+%29%3B++List%3CMap%3CString%2C+Object%3E%3E+typedRecords+%3D+new+List%3CMap%3CString%2C+Object%3E%3E%28%29%3B++for+%28+Object+untypedRecord+%3A+untypedRecords+%29+%7B++typedRecords.add%28+%28Map%3CString%2C+Object%3E%29+untypedRecord+%29%3B++%7D++execute%28+typedRecords+%29%3B++%7D++mas_initApexBlock%28%29%3B+void+execute%28+List%3CMap%3CString%2C+Object%3E%3E+sourceRecordsBatch+%29+%7B+%0A++++for+%28+Map%3CString%2C+Object%3E+record+%3A+sourceRecordsBatch+%29+%7B%0A++++++++Integer+cost+%3D+%28Integer%29+record.get%28%27cost%27%29%3B%0A++++++++if+%28+cost+%3C+500+%29+%7B+throw+new+System.MathException%28%29%3B+%7D%0A++++%7D+%0A%7D, Method=GET]",
+                        "dca_mass_action__Submitted_Date__c": "2019-07-11T03:32:28.000+0000",
+                        "dca_mass_action__Total_Batches__c": 21,
+                        "dca_mass_action__Processed_Batches__c": 17,
+                        "dca_mass_action__Failed_Batches__c": 0
+                    },
+                    {
+                        "attributes": {
+                            "type": "dca_mass_action__Mass_Action_Log__c",
+                            "referenceId": "dca_mass_action__Mass_Action_Log__cRef15"
+                        },
+                        "dca_mass_action__Job_ID__c": "7071h00000ehRQZ",
+                        "dca_mass_action__Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoi",
+                        "dca_mass_action__Long_Message__c": "Error: System.HttpResponse[Status=OK, StatusCode=200]\n{\"line\":4,\"column\":1,\"compiled\":true,\"success\":false,\"compileProblem\":null,\"exceptionStackTrace\":\"()\\n\\n\\n\",\"exceptionMessage\":\"System.MathException: Script-thrown exception\"}\nSystem.HttpRequest[Endpoint=https://power-app-5863-dev-ed.cs79.my.salesforce.com/services/data/v45.0/tooling/executeAnonymous?anonymousBody=+void+mas_initApexBlock%28%29+%7B++List%3CObject%3E+untypedRecords+%3D+%28List%3CObject%3E%29+JSON.deserializeUntyped%28+%27%5B%7B%22sku%22%3A%22100022%22%2C%22cost%22%3A25%2C%22lifespan%22%3A0%2C%22maintenanceperiod%22%3A0%2C%22name%22%3A%22Breaker+20A%22%2C%22quantity%22%3A129%2C%22replacement%22%3Atrue%2C%22_id%22%3A%2255d66226726b611100aaf754%22%7D%5D%27+%29%3B++List%3CMap%3CString%2C+Object%3E%3E+typedRecords+%3D+new+List%3CMap%3CString%2C+Object%3E%3E%28%29%3B++for+%28+Object+untypedRecord+%3A+untypedRecords+%29+%7B++typedRecords.add%28+%28Map%3CString%2C+Object%3E%29+untypedRecord+%29%3B++%7D++execute%28+typedRecords+%29%3B++%7D++mas_initApexBlock%28%29%3B+void+execute%28+List%3CMap%3CString%2C+Object%3E%3E+sourceRecordsBatch+%29+%7B+%0A++++for+%28+Map%3CString%2C+Object%3E+record+%3A+sourceRecordsBatch+%29+%7B%0A++++++++Integer+cost+%3D+%28Integer%29+record.get%28%27cost%27%29%3B%0A++++++++if+%28+cost+%3C+500+%29+%7B+throw+new+System.MathException%28%29%3B+%7D%0A++++%7D+%0A%7D, Method=GET]",
+                        "dca_mass_action__Submitted_Date__c": "2019-07-11T03:32:28.000+0000",
+                        "dca_mass_action__Total_Batches__c": 21,
+                        "dca_mass_action__Processed_Batches__c": 19,
+                        "dca_mass_action__Failed_Batches__c": 0
+                    }
+                ]
             }
         }
     ]
