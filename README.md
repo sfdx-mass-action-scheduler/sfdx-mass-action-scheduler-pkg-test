@@ -25,7 +25,7 @@ sfdx force:org:create -a mas-test-pkg -s -f config/project-scratch-def.json
 _Get the latest package id from the [release notes](https://github.com/douglascayers-org/sfdx-mass-action-scheduler/wiki/Release-Notes)._
 
 ```
-sfdx force:package:install --package PACKAGE_ID --publishwait 30 --wait 10
+sfdx force:package:install --publishwait 30 --wait 10 --package PACKAGE_ID
 ```
 
 ## Push Metadata
