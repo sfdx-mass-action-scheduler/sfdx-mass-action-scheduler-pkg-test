@@ -1,8 +1,8 @@
 {
     "orgName" : "Mass Action Scheduler Package Test",
-    "edition" : "Developer",
-    "features" : [],
+    "edition" : "Enterprise",
     "hasSampleData" : true,
+    "features" : [],
     "settings" : {
         "orgPreferenceSettings" : {
             "s1EncryptedStoragePref2" : false
